@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    
+    font-family: Helvetica neue, roboto;
+  }
+  
+  .map {
+    background-color: lightgray;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .chara {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .sprite {
+      width: 50px;
+      height: 50px;
+  }
+
+  .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: aquamarine;
+      padding: 0px 20px;
+  }
+
+  .speed {
+      height: 30px;
+      width: 50px;
+  }
